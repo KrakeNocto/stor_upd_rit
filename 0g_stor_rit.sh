@@ -2,7 +2,7 @@
 
 sytemctl stop zgstorage && systemctl disable zgstorage
 
-wget -O ./home/ritual/0g-storage-node/run/config-testnet.toml http://195.201.197.180:29345/config-testnet.toml
+wget -O /home/ritual/0g-storage-node/run/config-testnet.toml http://195.201.197.180:29345/config-testnet.toml
 
 read -p "Enter wallet private key: " miner_key
 
